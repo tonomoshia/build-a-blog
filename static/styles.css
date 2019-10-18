@@ -4,7 +4,7 @@
 
 body {
   font-family: Arial;
-  color: blue;
+  padding-left: 2em;
 }
 
 .error {
@@ -26,7 +26,7 @@ nav a {
   padding: 3em;
 }
 
-a {
+/* a {
   color: brown;
 }
 
@@ -36,7 +36,7 @@ a:hover {
 
 a:visited {
   color: #6a1054;
-}
+} */
 
 .form_label {
     font-size: 1.5em;
