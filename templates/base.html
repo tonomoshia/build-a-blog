@@ -5,13 +5,14 @@
     {% block head %}
     <title>{{title}}</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <link href="https://fonts.googleapis.com/css?family=Hepta+Slab|Liu+Jian+Mao+Cao|Long+Cang&display=swap" rel="stylesheet">
     {% endblock %}
   </head>
   <body>
   <h1>Build a Blog</h1>
   <nav>
-    <a href='/blog'>View Blog Posts</a>
-    <a href='/newpost'>Add New Post</a>
+    <a href="/blog">View Blog Posts</a>
+    <a href="/newpost">Add New Post</a>
   </nav>
   <hr/>
 
