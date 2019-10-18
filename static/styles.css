@@ -1,8 +1,43 @@
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial;
+  color: blue;
 }
 
 .error {
-    color: red;
+  color: red;
+}
+
+h1 {
+  font-family: 'Liu Jian Mao Cao', cursive;
+  color: #f725c3;
+  text-align: center;
+  font-size: 3em;
+}
+
+p {
+  font-family: 'Hepta Slab', serif;
+}
+
+nav a {
+  padding: 3em;
+}
+
+a {
+  color: brown;
+}
+
+a:hover {
+  color: green;
+}
+
+a:visited {
+  color: #6a1054;
+}
+
+.form_label {
+    font-size: 1.5em;
 }
